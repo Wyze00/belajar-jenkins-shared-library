@@ -1,3 +1,3 @@
-def call(step, String command){
-    step.sh("./mvnw ${command}")
+def call(String command){
+    sh("./mvnw ${command}")
 }
